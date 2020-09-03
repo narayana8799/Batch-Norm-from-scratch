@@ -6,7 +6,8 @@ Batch Normalization is one of the many techniques that are used to optimize **Ne
 
 In the original paper the authors mentioned to use the batch norm layer after linear transformation `WX + B` and before the activation. However it gave great results when batch norm layer is used after the activation.
 
+![Batch Norm Formulas](Images/1_kyVa9UTnMIpOYUE0DDcb2A.png)
+
 > I implemented batch norm layer after the activation int the notebook.
 
 > You can read the [Original Paper](https://arxiv.org/abs/1806.02375) for more understanding
-
